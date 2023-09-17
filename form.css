@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* utility class */
+
+.h-primary{
+    font-size: 2rem;
+    color:rgb(0, 0, 0);
+    letter-spacing: 3px;
+    margin-top:50px;
+    padding:5px;
+    text-transform: uppercase;
+    
+}
+
+.section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 70px;
+    background-color: rgb(255, 255, 255);
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/bg2.jpg) no-repeat center center/cover;
+
+    
+}
+.section-3 .h-primary{
+    color:white;
+    position: relative;
+    left:20px;
+}
+.section-3 form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    letter-spacing: 2px;
+
+}
+.section-3 .form-container{
+    position: relative;
+    left:-31px;
+    width:100%;
+}
+.section-3 form div{
+padding:8px;
+margin:4px;
+   
+    
+}
+.section-3 form input{
+ padding:8px 100px;
+ background-color: transparent;
+ outline: rgb(255, 255, 255);
+ border-radius: 12px;
+ border:1px solid rgb(255, 255, 255);
+ color:white;
+
+}
+.section-3 form label{
+    text-transform: uppercase;
+}
+
+.section-3 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    border:1px solid rgb(255, 255, 255);
+    padding:8px 5px;
+    display: block;
+    text-align: center;
+    margin:7px 0px;
+
+    width:120px;
+    margin-top: 40px;
+    position: relative;
+    left:15px;
+    transition: 1s;
+
+ 
+}
+.section-3 a:hover{
+    background-color: white;
+    color: black;
+   
+
+}
